@@ -1,0 +1,17 @@
+/*Стили для всех остальных экранов*/
+.footer__menu {
+    display: flex;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*Стили для небольших экранов */
+@media screen and (max-width: 685px) {
+    .footer__menu {
+        flex-direction: column;
+        gap: 32px;
+        padding: 0 0 48px;
+    }
+}

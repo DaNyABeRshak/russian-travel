@@ -1,0 +1,18 @@
+/*Стили для экрана от небольших ноутбуков и до бесконечности*/
+.place__url-heading {
+    margin: 0;
+    padding-bottom: 12px;
+    color: #aaa;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.7;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+/*Стили для всех остальных экранов*/
+@media screen and (max-width: 1023px) {
+    .place__url-heading {
+        line-height: 12px;
+    }
+}

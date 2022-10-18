@@ -1,0 +1,28 @@
+/*Стили для экрана от стандартных ноутбуков и до бесконечности*/
+.lead__image-container {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 984px;
+}
+
+/*Стили для небольших ноутбуков*/
+@media screen and (max-width: 1024px) {
+    .lead__image-container {
+        max-width: 928px;
+    }
+}
+
+/*Для стилей от вертикального до горизонтального положения планшета*/
+@media screen and (max-width: 768px) {
+    .lead__image-container {
+        padding: 0;
+        max-width: 768px;
+    }
+}
+
+/*Стили для мобильных устройств*/
+@media screen and (max-width: 320px) {
+    .lead__image-container {
+        max-width: 320px;
+    }
+}

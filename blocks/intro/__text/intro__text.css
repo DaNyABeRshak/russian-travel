@@ -1,0 +1,33 @@
+/*Для стилей от стандартных ноутбуков и до бесконечности */
+.intro__text {
+    margin: 0;
+    padding: 0 0 33px;
+    max-width: 690px;
+    min-width: 288px;
+    line-height: 163%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*Стили для небольших ноутбуков*/
+@media screen and (max-width: 1024px) {
+    .intro__text {
+        padding-bottom: 33px;
+    }
+}
+
+/*Для стилей от вертикального до горизонтального положения планшета*/
+@media screen and (max-width: 768px) {
+    .intro__text {
+        max-width: 720px;
+    }
+}
+
+/*Стили для мобильных устройств*/
+@media screen and (max-width:320px) {
+    .intro__text {
+        padding-bottom: 34px;
+        max-width: 288px;
+        line-height: 26.08px;
+    }
+}

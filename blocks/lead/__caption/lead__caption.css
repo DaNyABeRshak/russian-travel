@@ -1,0 +1,29 @@
+/*Стили для экрана от небольших ноутбуков и до бесконечности*/
+.lead__caption {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+/*Стили для небольших ноутбуков*/
+@media screen and (max-width: 1024px) {
+    .lead__caption {
+        margin-left: calc(24px - (0 + 24) * ((100vw - 768px) / (1024 - 768)));
+    }
+}
+
+/*Для стилей от вертикального до горизонтального положения планшета*/
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+
+/*Стили для мобильных устройств*/
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        margin-left: 16px;
+    }
+}

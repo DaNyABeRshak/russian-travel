@@ -1,0 +1,35 @@
+/*Стили для экрана от стандартных ноутбуков и до бесконечности*/
+.lead__subtitle {
+    margin: 0 auto 64px;
+    max-width: 640px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+/*Стили для экранов  планшета и небольших ноутбуков*/
+@media screen and (max-width:1024px) {
+    .lead__subtitle {
+        margin: 0 auto 56px;
+    }
+}
+
+/*Для стилей от вертикального до горизонтального положения планшета*/
+@media screen and (max-width: 768px) {
+    .lead__subtitle {
+        margin: 0 auto 40px;
+        width: calc(288px + (640 - 288) * ((100vw - 320px) / (768 - 320)));
+        line-height: calc(20px + (36 - 20) * ((100vw - 320px) / (768 - 320)));
+        font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+
+/*Стили для мобильных устройств*/
+@media screen and (max-width:320px) {
+    .lead__subtitle {
+        margin: 0 auto 40px;
+        line-height: 20px;
+        font-size: 16px;
+    }
+}

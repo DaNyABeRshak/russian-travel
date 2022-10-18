@@ -1,0 +1,33 @@
+/*Стили для экрана от стандартных ноутбуков и до бесконечности*/
+.footer {
+    margin: 0 auto 0;
+    padding: 0px 48px 24px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    min-width: 288px;
+}
+
+/*Стили для экранов небольших ноутбуков*/
+@media screen and (max-width: 1024px) {
+    .footer {
+        padding: 0 48px 24px;
+        width: calc(720px + (928 - 720) * ((100vw - 768px) / (1024 - 768)));
+    }
+}
+
+/*Стили для экранов  планшета*/
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 0 24px 24px;
+        width: calc(720px + (928 - 720) * ((100vw - 768px) / (1024 - 768)));
+    }
+}
+
+/*Стили для небольших экранов */
+@media screen and (max-width: 685px) {
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

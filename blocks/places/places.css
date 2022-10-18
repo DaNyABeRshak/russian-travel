@@ -1,0 +1,20 @@
+/*Стили для экрана от небольших ноутбуков и до бесконечности*/
+.places {
+    margin: 0 auto;
+    max-width: 984px;
+    padding: 0 148px;
+}
+
+/*Стили для экранов  планшета*/
+@media screen and (max-width: 768px) {
+    .places {
+        padding: 0 24px;
+    }
+}
+
+/*Стили для экранов телефона*/
+@media screen and (max-width: 320px) {
+    .places {
+        padding: 0;
+    }
+}
