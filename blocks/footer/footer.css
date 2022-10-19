@@ -27,7 +27,14 @@
 /*Стили для небольших экранов */
 @media screen and (max-width: 685px) {
     .footer {
+        padding: 0 16px 24px;
         flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
         align-items: flex-start;
     }
 }

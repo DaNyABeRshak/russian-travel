@@ -11,8 +11,13 @@
 /*Стили для небольших экранов */
 @media screen and (max-width: 685px) {
     .footer__copyright {
-        margin-top: 16px;
         line-height: 100%;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .footer__copyright {
         align-self: flex-start;
     }
 }

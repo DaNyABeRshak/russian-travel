@@ -1,3 +1,23 @@
 .lead__image {
     width: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        max-width: 928px;
+    }
+}
+
+/*Для стилей от вертикального до горизонтального положения планшета*/
+@media screen and (max-width: 768px) {
+    .lead__image {
+        max-width: 768px;
+    }
+}
+
+/*Стили для мобильных устройств*/
+@media screen and (max-width: 320px) {
+    .lead__image {
+        max-width: 320px;
+    }
+}

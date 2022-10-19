@@ -28,7 +28,7 @@
 }
 
 /*Стили для экранов телефона*/
-@media screen and (max-width: 685px) {
+@media screen and (max-width: 630px) {
     .place {
         gap: 32px;
         display: block;

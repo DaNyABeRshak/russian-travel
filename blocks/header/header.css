@@ -10,9 +10,8 @@
 }
 
 /*Стили для экранов небольших ноутбуков*/
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
     .header {
-        padding: 28px 48px 0;
         width: calc(720px + (928 - 720) * ((100vw - 768px) / (1024 - 768)));
     }
 }
@@ -20,7 +19,7 @@
 /*Стили для экранов  планшета*/
 @media screen and (max-width: 1023px) {
     .header {
-        padding: 28px 24px 0;
+        padding: 48px 24px 0;
         width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
     }
 }
@@ -28,13 +27,13 @@
 /*Стили для экранов телефона*/
 @media screen and (max-width: 768px) {
     .header {
-        padding: 16px 16px 0;
+        padding: 28px 24px 0;
         width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
     }
 }
 
 @media screen and (max-width:320px) {
     .header {
-        padding-top: 16px;
+        padding: 16px 16px 0;
     }
 }

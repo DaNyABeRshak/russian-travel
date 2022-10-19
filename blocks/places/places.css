@@ -5,6 +5,12 @@
     padding: 0 148px;
 }
 
+@media screen and (max-width:1024px) {
+    .places {
+        padding: 0 48px;
+    }
+}
+
 /*Стили для экранов  планшета*/
 @media screen and (max-width: 768px) {
     .places {

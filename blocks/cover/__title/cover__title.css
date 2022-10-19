@@ -1,4 +1,3 @@
-/*Стили для всех остальных экранов*/
 .cover__title {
     margin: 0 auto;
     max-width: 560px;
@@ -6,10 +5,10 @@
     font-weight: 900;
     line-height: 76px;
     text-align: center;
+    color: #fff;
 }
 
-/*Стили для небольших экранов */
-@media screen and (max-width: 685px) {
+@media screen and (max-width: 600px) {
     .cover__title {
         max-width: 288px;
         font-size: 32px;

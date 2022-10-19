@@ -24,20 +24,26 @@
     }
 }
 
-/*Стили для экранов  планшета*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width:802px) {
     .photo-grid {
-        width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
         padding: 88px 24px;
     }
-}
 
-/*Стили для экранов телефона*/
-@media screen and (max-width: 320px) {
-    .photo-grid {
-        gap: 12px;
-        max-width: 320px;
-        min-width: 288px;
-        padding: 64px 16px;
+
+    /*Стили для экранов  планшета*/
+    @media screen and (max-width: 768px) {
+        .photo-grid {
+            width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
+            padding: 88px 24px;
+        }
     }
-}
+
+    /*Стили для экранов телефона*/
+    @media screen and (max-width: 320px) {
+        .photo-grid {
+            gap: 12px;
+            max-width: 320px;
+            min-width: 288px;
+            padding: 64px 16px;
+        }
+    }

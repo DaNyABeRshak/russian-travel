@@ -19,6 +19,12 @@
     }
 }
 
+@media screen and (max-width:768px) {
+    .place__paragraph {
+        line-height: 26.08px;
+    }
+}
+
 /*Для стилей от экрана телефона до планшета*/
 @media screen and (max-width: 685px) {
     .place__paragraph {
