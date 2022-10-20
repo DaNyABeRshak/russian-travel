@@ -1,12 +1,12 @@
 /*Стили для экрана от стандартных ноутбуков и до бесконечности*/
-.places__place__image {
+.place__image {
     max-width: 460px;
     max-height: 460px;
 }
 
 /*Стили для экранов небольших ноутбуков*/
 @media screen and (max-width: 1024px) {
-    .places__place__image {
+    .place__image {
         max-width: 440px;
         max-height: 440px;
     }
@@ -14,7 +14,7 @@
 
 /*Стили для экранов  планшета*/
 @media screen and (max-width: 768px) {
-    .places__place__image {
+    .place__image {
         max-width: 340px;
         max-height: 340px;
     }
@@ -22,7 +22,7 @@
 
 /*Стили для экранов телефона*/
 @media screen and (max-width: 630px) {
-    .places__place__image {
+    .place__image {
         max-width: 320px;
         max-height: 320px;
         width: 100%;

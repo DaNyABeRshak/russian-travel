@@ -1,4 +1,4 @@
-.places__place__link {
+.place__link {
     margin: 0;
     text-decoration: underline;
     color: #fff;
@@ -8,6 +8,6 @@
     transition-duration: 0.5s;
 }
 
-.places__place__link:hover {
+.place__link:hover {
     opacity: 0.8;
 }

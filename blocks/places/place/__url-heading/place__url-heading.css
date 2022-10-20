@@ -1,5 +1,5 @@
 /*Стили для экрана от небольших ноутбуков и до бесконечности*/
-.places__place__url-heading {
+.place__url-heading {
     margin: 0;
     padding-bottom: 12px;
     color: #aaa;
@@ -12,7 +12,7 @@
 
 /*Стили для всех остальных экранов*/
 @media screen and (max-width: 1023px) {
-    .places__place__url-heading {
+    .place__url-heading {
         line-height: 12px;
     }
 }
