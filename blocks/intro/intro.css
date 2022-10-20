@@ -8,30 +8,24 @@
     flex-direction: column;
 }
 
-/*Стили для экрана от стандартных ноутбуков и до бесконечности*/
-@media screen and (max-width: 1280px) {
-    .intro {
-        width: calc(928px + (984 - 928) * ((100vw - 1024px) / (1280 - 1024)));
-    }
-}
-
 /*Стили для экранов  планшета*/
 @media screen and (max-width: 1024px) {
     .intro {
         padding: 88px 24px 0;
-        width: calc(720px + (928 - 720) * ((100vw - 768px) / (1024 - 768)));
+        max-width: 690px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
+        max-width: 720px;
         padding: 88px 24px 0;
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:425px) {
     .intro {
+        max-width: 288px;
         padding: 64px 0 0 0;
     }
 }

@@ -11,7 +11,7 @@
 /*Стили для небольших ноутбуков*/
 @media screen and (max-width: 1024px) {
     .lead {
-        width: calc(928px + (984 - 928) * ((100vw - 1024px) / (1280 - 1024)));
+        max-width: 928px;
         padding-top: 48px;
     }
 }
@@ -19,6 +19,12 @@
 /*Для стилей от вертикального до горизонтального положения планшета и телефона*/
 @media screen and (max-width: 768px) {
     .lead {
-        width: 100%;
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead {
+        max-width: 320px;
     }
 }

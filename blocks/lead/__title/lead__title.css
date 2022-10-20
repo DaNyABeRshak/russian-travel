@@ -14,15 +14,15 @@
 @media screen and (max-width: 768px) {
     .lead__title {
         margin: 0 auto 32px;
-        width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
         line-height: calc(44px + (100 - 44) * ((100vw - 320px) / (768 - 320)));
         font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
     }
 }
 
 /*Стили для мобильных устройств*/
-@media screen and (max-width:320px) {
+@media screen and (max-width:425px) {
     .lead__title {
+        max-width: 288px;
         margin: 0 auto 16px;
         line-height: 44px;
         font-size: 40px;
