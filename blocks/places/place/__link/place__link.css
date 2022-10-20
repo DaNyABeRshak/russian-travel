@@ -1,6 +1,7 @@
-.places__place__link {
+.place__link {
     margin: 0;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
     color: #fff;
     font-size: 18px;
     font-weight: 400;
@@ -8,6 +9,6 @@
     transition-duration: 0.5s;
 }
 
-.places__place__link:hover {
+.place__link:hover {
     opacity: 0.8;
 }
