@@ -1,5 +1,5 @@
 /*Стили для экрана от небольших ноутбуков и до бесконечности*/
-.place__paragraph {
+.places__place__paragraph {
     margin: 0;
     font-size: 18px;
     font-weight: 400;
@@ -7,27 +7,27 @@
     padding-bottom: 27px;
 }
 
-.place__paragraph:last-of-type {
+.places__place__paragraph:last-of-type {
     padding-bottom: 0;
 }
 
 /*Стили для небольших ноутбуков*/
 @media screen and (max-width: 1023px) {
-    .place__paragraph {
+    .places__place__paragraph {
         font-size: 16px;
         padding: 0 0 25px;
     }
 }
 
 @media screen and (max-width:768px) {
-    .place__paragraph {
+    .places__place__paragraph {
         line-height: 26.08px;
     }
 }
 
 /*Для стилей от экрана телефона до планшета*/
 @media screen and (max-width: 685px) {
-    .place__paragraph {
+    .places__place__paragraph {
         padding: 0 16px 25px;
     }
 }

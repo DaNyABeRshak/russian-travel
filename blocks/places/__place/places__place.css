@@ -1,5 +1,5 @@
 /*Стили для экрана от стандартных ноутбуков и до бесконечности*/
-.place {
+.places__place {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
@@ -8,20 +8,20 @@
     padding-bottom: 80px;
 }
 
-.place:last-child {
+.places__place:last-child {
     padding-bottom: 0;
 }
 
 /*Стили для экранов небольших ноутбуков*/
 @media screen and (max-width: 1024px) {
-    .place {
+    .places__place {
         gap: 48px 32px;
     }
 }
 
 /*Стили для экранов  планшета*/
 @media screen and (max-width: 768px) {
-    .place {
+    .places__place {
         gap: 48px 28px;
         padding-bottom: 73px;
     }
@@ -29,7 +29,7 @@
 
 /*Стили для экранов телефона*/
 @media screen and (max-width: 630px) {
-    .place {
+    .places__place {
         gap: 32px;
         display: block;
         padding-bottom: 50px;
